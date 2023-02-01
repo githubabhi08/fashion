@@ -1,0 +1,1130 @@
+ /*nav*/
+ .nav-link{
+    color:rgb(132, 10, 246);
+    font-size: 20px;
+    font-weight: 770;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    left: -150px;
+}
+.nav-link:hover{
+    transition: .4s;
+    color: rgb(36, 1, 69);
+}
+.bulla i{
+    color:  rgb(36, 1, 69);
+    position: relative;
+    top: 7px;
+    left: -10px;
+    font-size: 57px;
+}
+.navbar-brand i{
+    position: relative;
+    left: -1120px;
+    color: rgb(132, 10, 246);
+    top: 20px;
+    font-size: 97px;
+}
+
+.bnt2{
+    border: solid rgb(132, 10, 246) 2px;
+    border-radius: 0 20px 0 20px;
+    height: 47px;
+    width: 107px;
+    color: white;
+    position: relative;
+    left: -300px;
+    top: 20px;
+    font-family: cursive;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 4px 4px 4px 4px;
+    background-color: rgb(132, 10, 246);
+}
+.bnt2:hover{
+    transition: .4s;
+    background-color: rgb(36, 1, 69);
+    border: none;
+}
+
+/*banner*/
+.banner{
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/01/11/32/hat-1300408__340.png");
+}
+/*button*/
+.opt button{
+    position: relative;
+    top: 440px;
+    right: 500px;
+    height: 52px;
+    width: 154px;
+    border-radius: 70px;
+}
+.opt :nth-child(2){
+    position: relative;
+    top: 440px;
+    right: 177px;
+}
+.opt :nth-child(1){
+    position: relative;
+    top: 440px;
+    right: 577px;
+}
+.buy,.cart{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color:rgb(132, 10, 246) ;
+}
+.opt button:hover{
+    transition: .9s;
+    background-color: rgb(132, 10, 246);
+    color: white;
+}
+
+
+/*im1*/
+.ban1{
+    position: relative;
+    top: 70px;
+    right: 70px;
+}
+.im1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 470px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/19/21/clothes-1294933__340.png");
+}
+.con1 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con1 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con1 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b,.l{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con1{
+    
+    opacity: 0;
+    
+}
+.im1:hover .con1{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht:hover{
+    color: red;
+    transition: .4s;
+}
+.con1 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: white;
+}
+.im1:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+
+/*im2*/
+.im2:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+.ban2{
+    position: relative;
+    top: 70px;
+    right: 770px;
+}
+.im2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 470px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008__340.png");
+}
+.con2 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con2 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con2 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b2,.l2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con2{
+    
+    opacity: 0;
+    
+}
+.im2:hover .con2{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht2{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht2:hover{
+    color: red;
+    transition: .4s;
+}
+.con2 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: white;
+}
+
+
+/*im3*/
+.im3:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+.ban3{
+    position: relative;
+    top: 500px;
+    right: 770px;
+}
+.im3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 470px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/19/19/cloth-1294908__340.png");
+}
+.con3 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con3 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con3 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b3,.l3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con3{
+    
+    opacity: 0;
+    
+}
+.im3:hover .con3{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht3{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht3:hover{
+    color: red;
+    transition: .4s;
+}
+.con3 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: white;
+}
+
+
+/*im4*/
+.ban4{
+    position: relative;
+    top: 500px;
+    right: 70px;
+}
+.im4{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 370px;
+    width: 270px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2014/03/24/13/49/dress-294514__340.png");
+}
+.con4 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con4 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con4 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b4,.l4{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con4{
+    
+    opacity: 0;
+    
+}
+.im4:hover .con4{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht4{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht4:hover{
+    color: red;
+    transition: .4s;
+}
+.con4 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: white;
+}
+.im4:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+  
+
+/*im5*/
+.im5:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+.ban5{
+    position: relative;
+    top: 1000px;
+    right: 700px;
+}
+.im5{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 470px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/13/01/16/robe-155409__340.png");
+}
+.con5 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con5 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con5 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b5,.l5{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con5{
+    
+    opacity: 0;
+    
+}
+.im5:hover .con5{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht5{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht5:hover{
+    color: red;
+    transition: .4s;
+}
+.con5 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: white;
+}
+
+
+/*im6*/
+.im6:hover{
+    scale: 1.2;
+    transition: .7s;
+}
+.ban6{
+    position: relative;
+    top: 1000px;
+    right: 70px;
+}
+.im6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 470px;
+    z-index: 2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/19/24/clothes-1294974__340.png");
+}
+.con6 button{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    z-index: 5;
+}
+.con6 button:nth-child(1){
+    position: absolute;
+    top: 300px;
+    right:200px; 
+    height: 40px;
+    width: 120px;
+    border-radius: 70px;
+}
+.con6 button:nth-child(2){
+    position: absolute;
+    top: 300px;
+    right:70px; 
+    height: 40px;
+    width: 100px;
+    border-radius: 70px;
+}
+.b6,.l6{
+    font-size: 22px;
+    font-weight: 700;
+}
+.con6{
+    
+    opacity: 0;
+    
+}
+.im6:hover .con6{
+    position: absolute;
+    opacity: 1;
+    transition: .7s;
+    
+}
+.ht6{
+    position: absolute;
+    top: 350px;
+    right:100px; 
+    color: black;
+    font-size: 40px;
+}
+.ht6:hover{
+    color: red;
+    transition: .4s;
+}
+.con6 button:hover{
+    background-color: blueviolet;
+    transition: .4s;
+    color: rgb(239, 238, 238);
+}
+
+/*About*/
+.abt{
+    height: 170px;
+    position: relative;
+    top: 1450px;
+    left: 0;
+    background-color: blueviolet;
+}
+.us{
+    position: absolute;
+   
+   top: 80px;
+   left: 600px;
+    font-weight: 700;
+    color: white;
+    font-family: cursive;
+    font-size: 27px;
+    
+}
+
+
+/*intro*/
+.box{
+    position: relative;
+    top: 1500px;
+    left: 50px;
+  z-index: 4;
+}
+.pic{
+    position: absolute;
+    top: 40px;
+    left: 37px;
+    width: 280px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/13/11/46/office-1454087__340.png");
+}
+.text{
+    position: absolute;
+    top: 190px;
+    color: yellow;
+    left: 0;
+    background-color: rgb(250, 4, 45);
+    height: 420px;
+    width: 300px;
+    opacity: 0;
+    z-index: 7;
+    padding: 20px 40px 20px 20px;
+    border-radius: 70px;
+}
+.box:hover .text{
+opacity: .7;
+transition: .9s;
+cursor: pointer;
+}
+
+/*pic2*/
+.box2{
+    position: relative;
+    top: 1500px;
+    left: 520px;
+
+}
+.pic2{
+    position: absolute;
+    top: 40px;
+    left: 37px;
+    width: 280px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/02/10/43/business-man-304344__340.png");
+}
+.text2{
+    position: absolute;
+    top: 190px;
+    color: yellow;
+    left: 0;
+    background-color: rgb(250, 4, 45);
+    height: 420px;
+    width: 300px;
+    padding: 20px 40px 20px 20px;
+    border-radius: 70px;
+    opacity: 0;
+}
+.box2:hover .text2{
+    opacity: 0.7;
+    transition: .9s;
+    cursor: pointer;
+    }
+    
+
+    /*pic3*/
+    .box3{
+        position: relative;
+        top: 1500px;
+        left: 920px;
+    
+    }
+    .pic3{
+        position: absolute;
+        top: 40px;
+        left: 37px;
+        width: 280px;
+        height: 370px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+        background-image: url("https://cdn.pixabay.com/photo/2017/11/11/23/18/office-2940927__340.png");
+    }
+    .text3{
+        position: absolute;
+        top: 190px;
+        color: yellow;
+        left: 0;
+        background-color: rgb(250, 4, 45);
+        height: 420px;
+        width: 300px;
+        padding: 20px 40px 20px 20px;
+        border-radius: 70px;
+        opacity: 0;
+    }
+    .box3:hover .text3{
+        opacity: 0.7;
+        transition: .9s;
+        cursor: pointer;
+        }
+        .text3:hover h3{
+            transition: .4s;
+            color:rgb(100, 100, 248);
+        }
+        /*pick*/
+        .pick{
+            position: relative;
+            height: 170px;
+            top: 2200px;
+            left: 0;
+            width: 100%;
+            
+            background-color:blueviolet;
+        }
+        .po{
+            position: absolute;
+            color: white;
+            font-family: cursive;
+            font-size: 37px;
+            font-weight: 900;
+            top: 80px;
+            left: 600px;
+        }
+
+
+        /*potter*/
+        .it1{
+            position: relative;
+            top: 2250px;
+            left: 100px;
+        }
+        .pot{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: scroll;
+            position: absolute;
+            top: 20px;
+            height: 270px;
+            width: 220px;
+            left: 0;
+            background-image: url("https://cdn.pixabay.com/photo/2015/12/11/06/37/santa-hat-1087709__340.png");
+        }
+        .dol{
+            position: absolute;
+            top: 200px;
+            font-weight: 800;
+            color: blueviolet;
+            left: 40px;
+        }
+        .b{
+            position: absolute;
+            top: 210px;
+            font-weight: 800;
+            color: blueviolet;
+            left: 137px;
+        }
+        .write{
+            opacity: 0;
+        }
+        .it1:hover .write{
+            opacity: 1;
+            transition: .4s;
+        }
+        /*potter2*/
+        .it2{
+            position: relative;
+            top: 2250px;
+            left: 900px;
+        }
+        .pot2{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: scroll;
+            position: absolute;
+            top: 20px;
+            height: 270px;
+            width: 220px;
+            left: 0;
+            background-image: url("https://cdn.pixabay.com/photo/2013/07/13/12/49/celebration-160402__340.png");
+        }
+        .dol2{
+            position: absolute;
+            top: 200px;
+            font-weight: 800;
+            color: blueviolet;
+            left: 40px;
+        }
+        .b2{
+            position: absolute;
+            top: 210px;
+            font-weight: 800;
+            color: blueviolet;
+            left: 137px;
+        }
+        .write2{
+            opacity: 0;
+        }
+        .it2:hover .write2{
+            opacity: 1;
+            transition: .4s;
+        }
+
+
+       /*it3*/
+       .it3{
+        position: relative;
+        top: 2550px;
+        left: 100px;
+    }
+    .pot3{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: absolute;
+        top: 20px;
+        height: 270px;
+        width: 220px;
+        left: 0;
+        background-image: url("https://cdn.pixabay.com/photo/2014/03/24/13/46/suit-294326__340.png");
+    }
+    .dol3{
+        position: absolute;
+        top: 200px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 40px;
+    }
+    .b3{
+        position: absolute;
+        top: 210px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 137px;
+    }
+    .write3{
+        opacity: 0;
+    }
+    .it3:hover .write3{
+        opacity: 1;
+        transition: .4s;
+    }
+
+    /*pot*/
+    .it4{
+        position: relative;
+        top: 2550px;
+        left: 900px;
+    }
+    .pot4{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: absolute;
+        top: 20px;
+        height: 270px;
+        width: 220px;
+        left: 0;
+        background-image: url("https://cdn.pixabay.com/photo/2014/04/03/10/40/princess-311053__340.png");
+    }
+    .dol4{
+        position: absolute;
+        top: 200px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 40px;
+    }
+    .b4{
+        position: absolute;
+        top: 210px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 137px;
+    }
+    .write4{
+        opacity: 0;
+    }
+    .it4:hover .write4{
+        opacity: 1;
+        transition: .4s;
+    }
+
+    /*pot5*/
+    .it5{
+        position: relative;
+        top: 2850px;
+        left: 900px;
+    }
+    .pot5{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: absolute;
+        top: 20px;
+        height: 270px;
+        width: 220px;
+        left: 0;
+        background-image: url("https://cdn.pixabay.com/photo/2014/03/24/13/41/prom-dress-294042__340.png");
+    }
+    .dol5{
+        position: absolute;
+        top: 200px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 40px;
+    }
+    .b5{
+        position: absolute;
+        top: 210px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 137px;
+    }
+    .write5{
+        opacity: 0;
+    }
+    .it5:hover .write5{
+        opacity: 1;
+        transition: .4s;
+    }
+
+    /*pot6*/
+    .it6{
+        position: relative;
+        top: 2850px;
+        left: 100px;
+    }
+    .pot6{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: absolute;
+        top: 20px;
+        height: 270px;
+        width: 220px;
+        left: 0;
+        background-image: url("https://cdn.pixabay.com/photo/2014/04/03/00/42/shirt-309180__340.png");
+    }
+    .dol6{
+        position: absolute;
+        top: 200px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 40px;
+    }
+    .b6{
+        position: absolute;
+        top: 210px;
+        font-weight: 800;
+        color: blueviolet;
+        left: 137px;
+    }
+    .write6{
+        opacity: 0;
+    }
+    .it6:hover .write6{
+        opacity: 1;
+        transition: .4s;
+    }
+
+    /*about flip*/
+    .flip{
+        position: relative;
+        top: 3200px;
+        left: 0;
+        background-color: blueviolet;
+        height: 170px;
+        
+    }
+    .about h2{
+        position: absolute;
+        top: 80px;
+        font-weight: 700;
+        left: 610px;
+        color: white;
+        font-family: cursive;
+        font-size: 27px;
+    }
+    .card{
+        position: absolute;
+        margin-bottom: 150px;
+        
+        top: 200px;
+        left: -100px;
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        height: 450px;
+        width: 300px;
+        background-color: blueviolet;
+
+    }
+    .imgi{
+        position: absolute;
+        padding: 17px 17px 17px 17px;
+        top: 0px;
+        left: 0px;
+        transform-style: preserve-3d;
+        z-index: 1;
+        transform-origin: left;
+        transition: all .7s;
+        height: 100%;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    .imgi img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        
+        background-color: blueviolet;
+    }
+    .card:hover .imgi{
+       transform: rotateY(-180deg);
+    }
+    .imgi img:nth-child(2){
+        transform: rotateY(180deg);
+    }
+    .details h3{
+        position: absolute;
+        top: 400px;
+        left: 57px;
+        color: black;
+        font-weight: 700;
+    }
+
+    /*card2*/
+    .card2{
+        position: absolute;
+        margin-bottom: 150px;
+        
+        top: 429px;
+        left: 300px;
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        height: 450px;
+        width: 300px;
+        background-color: blueviolet;
+
+    }
+    .imgi2{
+        position: absolute;
+        padding: 17px 17px 17px 17px;
+        top: 0px;
+        left: 0px;
+        transform-style: preserve-3d;
+        z-index: 1;
+        transform-origin: left;
+        transition: all .7s;
+        height: 100%;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    .imgi2 img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    .card2:hover .imgi2{
+       transform: rotateY(-180deg);
+    }
+    .imgi2 img:nth-child(2){
+        transform: rotateY(180deg);
+    }
+    .details2 h3{
+        position: absolute;
+        top: 400px;
+        left: 57px;
+        color: black;
+        font-weight: 700;
+    }
+    .flip2{
+        position: relative;
+        top: 2800px;
+        left: 0;
+        
+    }
+
+    /*page*/
+    .page{
+        position: relative;
+        top: 3700px;
+        left: 0;
+    }
+    .wt{
+        position: absolute;
+        left: 70px;
+        top: 230px;
+        
+    }
+    .wt input{
+        width: 270px;
+        height: 37px;
+        
+        
+        margin-bottom: 2px;
+    }
+    .gi{
+        position: absolute;
+        left: 200px;
+        top: 50px;
+        background-attachment: scroll;
+        height: 400px;
+        width: 370px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("https://cdn.pixabay.com/photo/2021/07/21/12/50/website-6482988__340.png");
+    }
+    .bi{
+        position: relative;
+        top: 370px;
+        left: -70px;
+
+    }
+    .an button{
+        height: 47px;
+        width: 120px;
+        border-radius: 70px;
+        background-color: blueviolet;
+        border: solid blueviolet 2px;
+    }
+    .ton{
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        padding: 4px 4px 4px 4px;
+    }
+    .an{
+        position: absolute;
+        top: 0;
+        left: 1080px;
+    }
+    .an:hover button{
+        background-color: white;
+        transition: .4s;
+        
+    }
+    .an:hover .ton{
+        color: blueviolet;
+    }
